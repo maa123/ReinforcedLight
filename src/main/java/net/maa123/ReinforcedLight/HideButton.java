@@ -42,14 +42,16 @@ public class HideButton extends BlockButton{
     }
 
     @SideOnly(Side.CLIENT)
-	public IIcon getIcon(int side, int meta){
-		if(meta == 0){
-			return Blocks.portal.getBlockTextureFromSide(1);
-		}
-		//Minecraft.getMinecraft().thePlayer.sendChatMessage("meta:"+meta);
-		if(isHide){
+	public IIcon getIcon(IBlockAccess worldIn, int x, int y, int z, int side){
+    	if(isHide){
 			return InvIcon;
 		}
+		return Blocks.portal.getBlockTextureFromSide(1);
+	}
+
+	@SideOnly(Side.CLIENT)
+	public IIcon getIcon(int side, int meta){
+		//Minecraft.getMinecraft().thePlayer.sendChatMessage("meta:"+meta);
 		return Blocks.portal.getBlockTextureFromSide(1);
 	}
 
