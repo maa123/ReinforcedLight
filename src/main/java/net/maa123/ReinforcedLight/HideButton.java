@@ -106,6 +106,7 @@ public class HideButton extends BlockButton{
 	}
 
 	@Override
+	@SideOnly(Side.CLIENT)
 	public boolean onBlockActivated(World worldIn, int x, int y, int z, EntityPlayer player, int side, float subX, float subY, float subZ){
 		if(this.isHide){
 			return false;
