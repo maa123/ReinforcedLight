@@ -22,10 +22,8 @@ import net.minecraft.world.World;
 
 public class HideButton extends BlockButton{
 
-	@SideOnly(Side.CLIENT)
 	protected boolean isHide = false;
 
-	@SideOnly(Side.CLIENT)
 	private IIcon InvIcon;
 
 	private double zero = 0.0;
