@@ -14,7 +14,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "ReinforcedLight", name = "ReinforcedLight MOD", version = "1.1.0")
+@Mod(modid = "ReinforcedLight", name = "ReinforcedLight MOD", version = "1.2.0")
 public class ReinforcedLight {
 	
 	public static Block blockEGlowstone;
