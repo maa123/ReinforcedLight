@@ -1,5 +1,7 @@
 #更新停止
 
+[移動先](https://github.com/maa123/ReinforcedBlocks)
+
 現在別MODとして作成しなおす準備を行っております
 
 このmodはこれ以上更新する予定はありません
