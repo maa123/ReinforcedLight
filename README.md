@@ -11,7 +11,7 @@
  For Minecraft 1.7.10 Forge 10.13.4.1614
 
 
-[![CircleCI](https://circleci.com/gh/maa123/ReinforcedLight.svg?style=svg)](https://circleci.com/gh/maa123/ReinforcedLight)
+[![Build](https://github.com/maa123/ReinforcedLight/actions/workflows/build.yml/badge.svg)](https://github.com/maa123/ReinforcedLight/actions/workflows/build.yml)
 
 
 
