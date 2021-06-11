@@ -1,4 +1,4 @@
-#更新停止
+# 更新停止
 
 [移動先](https://github.com/maa123/ReinforcedBlocks)
 
